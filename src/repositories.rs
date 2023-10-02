@@ -1,7 +1,4 @@
 use diesel::prelude::*;
-use diesel::dsl::IntervalDsl;
-use diesel::dsl::now;
-
 use crate::models::*;
 use crate::schema::*;
 
