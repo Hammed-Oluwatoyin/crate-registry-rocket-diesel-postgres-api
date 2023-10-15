@@ -25,7 +25,7 @@ fn main () {
                 .subcommand(
                     Command::new("delete")
                         .about("Delete user by ID")
-                        .arg(Arg::new("id").required(true))
+                        .arg(Arg::new("id").required(true).value_parser(clap::value_parser!(i32)))
                 )
         ).get_matches();
     
