@@ -18,6 +18,9 @@ clap = "4.1.6"
 log = "0.4"
 argon2 = "0.5"
 rand = "0.8"
+tera = "1"
+lettre = "0.10"
+
 
 
 [dev-dependencies]
